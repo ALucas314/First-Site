@@ -7,4 +7,4 @@
 ![css3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
 
 <p>
-<img src="Assets/img/QRcode.png" alt="css3" width="100" height="100"/>
+<img src="Assets/img/QRcode.png" alt="css3" width="100vh" height="100vh"/>
