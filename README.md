@@ -16,7 +16,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="Assets/img/Projeto.PNG" alt="Exemplo imagem">
 
 > Imagem mostrando uma prévia do projeto, se ficou curioso acesse tanto pelo link app ao lado ou escaneie o QRcode.
 
