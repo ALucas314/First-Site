@@ -1,0 +1,210 @@
+/* Add the following CSS for better box sizing */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container-inner {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.details {
+    text-align: left;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.details-inner {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.details h2 {
+    color: #fff;
+}
+
+.details p {
+    color: #ccc;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #303030;
+    border: 1px solid #595959;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+body {
+    animation: fadeIn 1s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: fadeInCard 1s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInCard {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.banner-img {
+    animation: fadeInBanner 1s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInBanner {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.card {
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(244, 244, 244, 0.801);
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(255, 67, 67, 0.978);
+}
+
+.academic-card:hover {
+    transform: rotate(5deg);
+    box-shadow: 0 8px 16px rgba(232, 57, 255, 0.756);
+}
+
+.education-card:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgb(6, 255, 85);
+}
+
+.extra-education-card:hover {
+    transform: skewX(-8deg);
+    box-shadow: 0 8px 16px rgb(171, 15, 255);
+}
+
+.banner-img:hover {
+    transform: rotate(8deg);
+    box-shadow: 0 8px 16px rgb(0, 255, 238);
+}
+
+/* Add a media query for screens with a width of 749 pixels or below */
+@media screen and (max-width: 749px) {
+    .container {
+        flex-direction: column; /* Stack the cards vertically */
+        align-items: center; /* Center-align items */
+    }
+
+    .card {
+       
+
+        width: 100%; /* Make cards take full width */
+        margin: 10px 0; /* Adjust margin for spacing between cards */
+        text-align: center; /* Center-align text within the cards */
+    }
+
+    
+    .details {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    }
+
+    .banner-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; /* Center the image horizontally */
+    }
+    
+
+    
+}
+
+
