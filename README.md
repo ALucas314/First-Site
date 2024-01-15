@@ -29,9 +29,8 @@ Basicamente o projeto foi capaz de realizar as seguintes tarefas:
       
 <img src="Assets/img/QRcode.png" alt="css3" width="200" height="200"/>
 
-```
-Atualização leve:
-```
+## 🚀 
+
 ```
  https://alucas314.github.io/First-Site/
 ```
