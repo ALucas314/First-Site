@@ -54,14 +54,17 @@ body {
     color: #ccc;
 }
 
+/* Seu código existente ... */
+
 .banner-img {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin: 20px auto; /* Adicionado 'auto' para centralizar horizontalmente */
     display: block;
-    max-width: 100%;
-    height: auto;
 }
+
+/* Seu código existente ... */
+
 
 .container {
     display: flex;
@@ -173,7 +176,6 @@ body {
     box-shadow: 0 8px 16px rgb(0, 255, 238);
 }
 
-
 @media screen and (max-width: 749px) {
     .container {
         flex-direction: column; 
@@ -202,8 +204,36 @@ body {
         margin: 0 auto; 
     }
     
-
-    
 }
+
+.light-mode {
+    background-color: #fff;
+}
+
+
+.toggle-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.toggle-container button {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.toggle-container button:hover {
+    background-color: #636262;
+}
+
+.toggle-container button:active {
+    transform: scale(0.95);
+}
+
+/* Seu código existente ... */
 
 
