@@ -28,3 +28,7 @@ Basicamente o projeto foi capaz de realizar as seguintes tarefas:
 - [x] Responsividade 2
       
 <img src="Assets/img/QRcode.png" alt="css3" width="200" height="200"/>
+
+Atualização leve
+
+https://alucas314.github.io/First-Site/
